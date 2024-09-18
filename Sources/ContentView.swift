@@ -93,7 +93,7 @@ struct ContentView: View {
     }
 
     func isPathValid(_ path: String) -> Bool {
-        let blockedPaths = ["/var/containers", "/var/preferences"]
+        let blockedPaths = ["/var/containers", "/var/preferences", "/var/db/eligibilityd"]
         for blockedPath in blockedPaths {
             if path.hasPrefix(blockedPath) {
                 return true
