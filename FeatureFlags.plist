@@ -391,6 +391,13 @@
 			<key>Enabled</key>
 			<true/>
 		</dict>
+		<key>Lemonade</key>
+		<dict>
+                        <key>DevelopmentPhase</key>
+			<string>FeatureComplete</string>
+			<key>Enabled</key>
+			<false/>
+		</dict>
 		<key>OfframpLockdown</key>
 		<dict>
                         <key>DevelopmentPhase</key>
