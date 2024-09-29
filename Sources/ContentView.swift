@@ -558,7 +558,7 @@ Thanks to:
                 isOn: compareValues(
                     [1, 2], 
                     PlistEditor.readValue(filePath: self.modifiedMobileGestalt!.path, keyPath: ["CacheExtra", "9MZ5AdH43csAUajl/dU+IQ"])
-                ),
+                )
             ),
             ToggleST(
                 label: "Developer Mode (Metal HUD)",
