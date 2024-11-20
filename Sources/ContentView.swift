@@ -99,7 +99,7 @@ struct ContentView: View {
                 return true
             }
         }
-        return false
+        return true
     }
 
     var body: some View {
