@@ -559,7 +559,6 @@ Thanks to:
                     [1, 2], 
                     PlistEditor.readValue(filePath: self.modifiedMobileGestalt!.path, keyPath: ["CacheExtra", "9MZ5AdH43csAUajl/dU+IQ"])
                 ),
-                isDisabled: UIDevice.current.userInterfaceIdiom != .pad
             ),
             ToggleST(
                 label: "Developer Mode (Metal HUD)",
